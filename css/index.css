@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/*# sourceMappingURL=index.css.map */
+/*工具类*/
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix::after {
+  /*设置添加的子元素的内容为空*/
+  content: "";
+  /*设置添加的子元素为块级元素*/
+  display: block;
+  /*设置添加的子元素的高度为0*/
+  height: 0;
+  /*设置添加的子元素看不见*/
+  visibility: hidden;
+  /*给添加的子元素设置clear: both;*/
+  clear: both;
+}
+
+.clearfix {
+  /*兼容IE6*/
+  *zoom: 1;
+}
+
+/*工具类*/
+/*全局配置*/
+body {
+  font: 12px/1.6 tahoma,arial,sans-serif;
+  color: #333;
+  background: #f7f7f7;
+}
+
+/*全局配置*/
+.nav {
+  width: 100%;
+}
+.nav .nav-top {
+  width: 100%;
+  height: 33px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+.nav .nav-top .nav-in {
+  width: 1690px;
+  margin: 0 auto;
+  height: 100%;
+}
+.nav .nav-top .nav-in ul {
+  float: right;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.nav .nav-top .nav-in ul li {
+  color: #ccc;
+  line-height: 33px;
+  margin: 0 10px;
+}
+.nav .nav-top .nav-in ul li a {
+  color: #ccc;
+}
+.nav .nav-top .nav-in ul li i {
+  margin-right: 6px;
+  color: pink;
+  font-size: 10px;
+}
+.nav .nav-bottom {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+.nav .nav-bottom .nav-in {
+  width: 1690px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+}
+.nav .nav-bottom .nav-in span {
+  line-height: 100px;
+  font-size: 15px;
+  margin-left: 30px;
+}
+.nav .nav-bottom .nav-in span i {
+  font-size: 20px;
+}
+.nav .nav-bottom .nav-in .search {
+  height: 100%;
+  margin-left: 283px;
+  display: flex;
+  align-items: center;
+}
+.nav .nav-bottom .nav-in .search input {
+  outline: none;
+  border: none;
+  height: 48px;
+}
+.nav .nav-bottom .nav-in .search input[type=text] {
+  width: 650px;
+  background-color: #f7f7f7;
+  padding-left: 10px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.nav .nav-bottom .nav-in .search input[type=submit] {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 58px;
+  background: url(./../images/search-btn.png) no-repeat;
+}
+.nav .nav-bottom .nav-in ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav .nav-bottom .nav-in ul li {
+  text-align: center;
+  margin: 0 20px;
+}
+.nav .nav-bottom .nav-in ul li i {
+  font-size: 30px;
+}
+.nav .nav-bottom .nav-in .login {
+  height: 100%;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.nav .nav-bottom .nav-in .login a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.nav .nav-bottom .nav-in .login span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.nav2 {
+  width: 100%;
+  position: fixed;
+  top: -100px;
+  left: 0px;
+  transition: all 1s linear 0s;
+}
+.nav2 .nav-bottom {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+.nav2 .nav-bottom .nav-in {
+  width: 1690px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+}
+.nav2 .nav-bottom .nav-in .mulu {
+  visibility: hidden;
+  line-height: 100px;
+  font-size: 15px;
+  margin-left: 30px;
+}
+.nav2 .nav-bottom .nav-in .mulu i {
+  font-size: 20px;
+}
+.nav2 .nav-bottom .nav-in .search {
+  height: 100%;
+  margin-left: 283px;
+  display: flex;
+  align-items: center;
+}
+.nav2 .nav-bottom .nav-in .search input {
+  outline: none;
+  border: none;
+  height: 48px;
+}
+.nav2 .nav-bottom .nav-in .search input[type=text] {
+  width: 650px;
+  background-color: #f7f7f7;
+  padding-left: 10px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.nav2 .nav-bottom .nav-in .search input[type=submit] {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 58px;
+  background: url(./../images/search-btn.png) no-repeat;
+}
+.nav2 .nav-bottom .nav-in ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav2 .nav-bottom .nav-in ul li {
+  text-align: center;
+  margin: 0 20px;
+}
+.nav2 .nav-bottom .nav-in ul li i {
+  font-size: 30px;
+}
+.nav2 .nav-bottom .nav-in .login {
+  height: 100%;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.nav2 .nav-bottom .nav-in .login a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.nav2 .nav-bottom .nav-in .login span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=index.css.map */
